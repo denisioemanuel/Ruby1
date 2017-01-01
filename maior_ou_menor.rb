@@ -54,6 +54,7 @@ for tentativa in 1.. limite_de_tentativas
 	pontos_a_perder = (chute - numero_secreto).abs / 2.0
 	pontos_ate_agora -= pontos_a_perder
 	chutes <<  chute
+	
 	if verifica_se_acertou numero_secreto, chute
 		break
 	end
